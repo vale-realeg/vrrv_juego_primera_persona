@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Pequeño videojuego en primera persona desarrollado en javascript y ThreeJS"/>
+        <meta name="keywords" content="canvas, juego, ufg, estudiantes, 2025, primera, persona, three, js"/>
+        <meta name="copyright" content="VRRV2025"/>
+        <meta name="author" content="Valeria Roxana Realegeño Valencia"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Videojuego en primera persona </title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div id="blocker">
+            <div id="instructions">
+                <div id="playButton">
+                    Jugar!!
+                    <p>
+                        ESC - Ir al menú <br/>
+                        W,A,S,D - Movimientos laterales y frontales <br/>
+                        Click izquierdo - Disparo <br/>
+                        Barra espaceadora - Disparo <br/>
+                        M - Reproducir / Pausar el sonido
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img id="crosshair" src="media/reticle.png" alt="Crosshair">
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/OrbitControls.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/PointerLockControls.js"></script>
+        <script src="js/script.js" type="module"></script>
+        
+    </body>
+
+</html>
