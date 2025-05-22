@@ -2,7 +2,7 @@
     "lang": "es-SV",
     "name": "Videojuego en primera persona con three.js",
     "short_name": "Mata cuadritos",
-    "description": "Debera destruir todos los cubos que aparecen enfrente o ne cualquier parte, el objetivo es destruirlos todos",
+    "description": "Debera destruir todos los cubos que aparecen enfrente o en cualquier parte, el objetivo es destruirlos todos",
     "start_url": "./",
     "background_color": "#000",
     "theme_color": "#000",
@@ -18,14 +18,14 @@
     ],
     "screenshots":[
         {
-            "src": "./media/screenshoots/1920x913.png",
+            "src": "./media/screenshots/1920x913.png",
             "sizes": "1920x913",
             "type": "image/png",
             "form_factor": "wide",
             "label": "Visita del juego en computadora"
         },
         {
-            "src": "./media/screenshoots/1920x913.png",
+            "src": "./media/screenshots/1920x913.png",
             "sizes": "1442x3206",
             "type": "image/png",
             "form_factor": "narow",
